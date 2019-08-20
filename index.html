@@ -1,6 +1,7 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <title>GreatFET Azalea / One Pins</title>
+<link rel="stylesheet" type="text/css" href="tablefilter/style/tablefilter.css" />
 <script src="tablefilter/tablefilter.js"></script>
 </head>
 
@@ -3351,7 +3352,7 @@ var tf = new TableFilter(document.querySelector('.filterable'), {
 	auto_filter: { delay: 100 },
 	enable_icons: true,
 	filters_row_index: 1,
-	grid_layout: { width: '100%', height: '100%' },
+	grid_layout: { width: '100%', height: '80%' },
 	mark_active_columns: {},
     toolbar: {},
 
@@ -3373,7 +3374,7 @@ var tf = new TableFilter(document.querySelector('.filterable'), {
     extensions: [{
               name: 'colsVisibility',
               at_start: [2, 3, 4],
-              text: 'Columns: ',
+              text: 'Show/hide columns: ',
               tick_to_hide: false
           }, {
               name: 'sort'
